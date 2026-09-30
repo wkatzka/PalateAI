@@ -11,8 +11,8 @@
 <meta property="og:title" content="Not found | Palate">
 <meta property="og:description" content="This page doesn’t exist.">
 <meta property="og:image" content="https://palateai.co/icon-512.png">
-<style>@font-face{font-family:"Cormorant Garamond";src:url("/fonts/CormorantGaramond_400Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:"Cormorant Garamond";src:url("/fonts/CormorantGaramond_400Regular_Italic.ttf") format("truetype");font-weight:400;font-style:italic;font-display:swap}
+<style>@font-face{font-family:"Cormorant Garamond";src:url("/fonts/CormorantGaramond_400Regular_Italic.ttf") format("truetype");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Cormorant Garamond";src:url("/fonts/CormorantGaramond_500Medium_Italic.ttf") format("truetype");font-weight:500;font-style:italic;font-display:swap}
 @font-face{font-family:"Cormorant Garamond";src:url("/fonts/CormorantGaramond_500Medium.ttf") format("truetype");font-weight:500;font-style:normal;font-display:swap}
 @font-face{font-family:"Inter";src:url("/fonts/Inter_400Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:"Inter";src:url("/fonts/Inter_500Medium.ttf") format("truetype");font-weight:500;font-style:normal;font-display:swap}
@@ -22,30 +22,29 @@
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--cream);color:var(--text);font:400 17px/1.65 var(--sans)}
-a{color:var(--ink);text-decoration-color:var(--willow);text-underline-offset:3px}
+a{color:var(--ink);font-family:var(--serif);font-style:italic;font-size:1.12em;text-decoration-color:var(--willow);text-underline-offset:3px}
 a:hover{color:var(--ink-soft);text-decoration-color:var(--rim)}
 .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
 .top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:28px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);font-style:normal}
 .brand img{width:40px;height:40px;border-radius:10px;border:1px solid var(--hairline)}
 .brand span{font:500 30px/1 var(--serif);letter-spacing:.01em}
 .top nav{display:flex;gap:22px;font-size:15px}
-.top nav a{text-decoration:none;color:var(--text-2)}
+.top nav a{font:inherit;text-decoration:none;color:var(--text-2)}
 .top nav a:hover,.top nav a[aria-current]{color:var(--ink)}
 .hero{display:grid;grid-template-columns:1.25fr .75fr;gap:56px;align-items:center;padding:56px 0 72px;border-bottom:1px solid var(--hairline)}
 .kicker{font:600 12px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--rim);margin:0 0 18px}
-h1{font:400 clamp(40px,6vw,64px)/1.05 var(--serif);color:var(--ink);margin:0 0 24px;letter-spacing:-.005em}
-h1 em{font-style:italic}
+h1{font:italic 400 clamp(40px,6vw,64px)/1.05 var(--serif);color:var(--ink);margin:0 0 24px;letter-spacing:-.005em}
 .lede{font-size:19px;color:var(--text);max-width:34em;margin:0 0 20px}
 .note{color:var(--text-2);font-size:15px;margin:0}
 .art{justify-self:center;width:min(380px,80vw)}
 .art img{width:100%;height:auto;display:block}
 .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;padding:64px 0}
 .card{background:var(--paper);border:1px solid var(--hairline);border-radius:14px;padding:26px 26px 22px}
-.card h2{font:500 26px/1.15 var(--serif);color:var(--ink);margin:0 0 10px}
+.card h2{font:italic 500 26px/1.15 var(--serif);color:var(--ink);margin:0 0 10px}
 .card p{margin:0;color:var(--text)}
 .where{border-top:1px solid var(--hairline);padding:56px 0 64px;display:grid;grid-template-columns:.75fr 1.25fr;gap:56px}
-.where h2,.doc h1{font:400 38px/1.1 var(--serif);color:var(--ink);margin:0}
+.where h2,.doc h1{font:italic 400 38px/1.1 var(--serif);color:var(--ink);margin:0}
 .where p{margin:0 0 14px;max-width:36em}
 footer{border-top:1px solid var(--hairline);padding:32px 0 48px;color:var(--text-2);font-size:14px}
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 32px}
@@ -54,7 +53,7 @@ footer p{margin:0}
 .doc{max-width:720px;padding:32px 0 72px}
 .doc .meta{color:var(--text-2);font-size:15px;margin:12px 0 36px}
 .doc section{border-top:1px solid var(--hairline);padding:22px 0 6px}
-.doc h2{font:500 24px/1.2 var(--serif);color:var(--ink);margin:0 0 10px}
+.doc h2{font:italic 500 24px/1.2 var(--serif);color:var(--ink);margin:0 0 10px}
 .doc p{margin:0 0 14px}
 .doc ul{margin:0 0 14px;padding-left:20px}
 .doc li{margin:0 0 8px}
